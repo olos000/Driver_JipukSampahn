@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBG"
+        tools:context=".Regis_driver">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:layout_centerHorizontal="true"
+            android:text="Create Account"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:textSize="32dp"/>
+    <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+        <EditText
+                android:drawableRight="@drawable/ic_person_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:textSize="16sp"
+                android:hint="username"
+                android:textColorHint="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="60dp"
+        />
+        <EditText
+                android:drawableRight="@drawable/ic_lock_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:textSize="16sp"
+                android:hint="Password"
+                android:textColorHint="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+        />
+        <EditText
+                android:drawableRight="@drawable/ic_email_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:textSize="16sp"
+                android:hint="Email"
+                android:textColorHint="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+        />
+        <EditText
+                android:drawableRight="@drawable/ic_phone_android_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:textSize="16sp"
+                android:hint="Nomer Hp"
+                android:textColorHint="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+        />
+        <Button
+                android:id="@+id/btn_reg"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:text="Regrister Now"
+                android:background="@drawable/selector_btn"
+                android:layout_marginBottom="113dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
